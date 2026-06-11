@@ -41,10 +41,7 @@
   - [Network Simulation & Traffic Shaping](#network-simulation--traffic-shaping)
   - [CI/CD Integration & Performance Gates](#cicd-integration--performance-gates)
   - [Results Analysis & Reporting](#results-analysis--reporting)
-  - [Cloud Provider Services](#cloud-provider-services)
-  - [Developer-Centric Platforms](#developer-centric-platforms)
-  - [Enterprise Platforms](#enterprise-platforms)
-  - [Tools & Integrations](#tools--integrations)
+  - [Managed Load Testing Platforms](#managed-load-testing-platforms)
 - [Related](#related)
 
 Indicators: ⭐ Widely adopted · 🟢 Active · 🔵 Cloud-native · 🟠 Commercial · 🚀 High performance
@@ -80,7 +77,6 @@ Indicators: ⭐ Widely adopted · 🟢 Active · 🔵 Cloud-native · 🟠 Comme
 - [Fluentd](https://github.com/fluent/fluentd) - 🟢🔵 CNCF graduated unified logging layer with 1000+ plugins for complex routing.
 - [Elasticsearch](https://github.com/elastic/elasticsearch) - ⭐🟢🟠 Distributed search and analytics engine with powerful full-text search capabilities.
 - [OpenSearch](https://github.com/opensearch-project/OpenSearch) - 🟢🔵 Community-driven, Apache-2.0-licensed fork of Elasticsearch, backed by AWS.
-- [Logstash](https://github.com/elastic/logstash) - Flexible log ingestion and transformation pipeline, part of the Elastic Stack.
 - [Graylog](https://github.com/Graylog2/graylog2-server) - 🟢🟠 Centralized log management with built-in alerting and dashboards.
 - [rsyslog](https://github.com/rsyslog/rsyslog) - 🟢🚀 High-performance system logging daemon handling millions of messages per second.
 
@@ -117,7 +113,6 @@ Indicators: ⭐ Widely adopted · 🟢 Active · 🔵 Cloud-native · 🟠 Comme
 - [Keep](https://github.com/keephq/keep) - 🟢🔵 Open-source alert management platform consolidating alerts from multiple sources.
 - [Alerta](https://github.com/alerta/alerta) - 🟢 Unified alert correlation and management across multiple monitoring systems.
 - [PagerDuty](https://www.pagerduty.com/) - 🟠 Industry-standard incident response and on-call management platform.
-- [Opsgenie](https://www.atlassian.com/software/opsgenie/migration) - 🟠 Alerting and escalation platform, part of the Atlassian suite.
 - [Rootly](https://rootly.com/) - 🟠 AI-assisted incident management with automated timelines and postmortem generation.
 
 ### Observability Platforms (Integrated)
@@ -154,7 +149,6 @@ Indicators: ⭐ Widely adopted · 🟢 Active · 🔵 Cloud-native · 🟠 Comme
 - [pgwatch](https://github.com/cybertec-postgresql/pgwatch) - 🟢 PostgreSQL-specific monitoring and metrics collection.
 - [pg_stat_monitor](https://github.com/percona/pg_stat_monitor) - 🟢 PostgreSQL extension for enhanced query performance monitoring.
 - [VividCortex / SolarWinds DPM](https://www.solarwinds.com/solarwinds-observability/use-cases/system-performance) - 🟠 SaaS query-level database performance monitoring.
-- [Datadog DBM](https://www.datadoghq.com/product/database-monitoring/) - 🟠 Database monitoring with query-level explain plans, wait event analysis, and trace correlation.
 
 ### Real User Monitoring (RUM) & Frontend Observability
 
@@ -165,11 +159,7 @@ Indicators: ⭐ Widely adopted · 🟢 Active · 🔵 Cloud-native · 🟠 Comme
 
 ### AI-Augmented Observability
 
-- [Dynatrace Davis AI](https://www.dynatrace.com/platform/artificial-intelligence/) - 🟠 Deterministic and causal AI for topology-aware automatic root-cause analysis.
-- [Datadog Watchdog](https://docs.datadoghq.com/watchdog/) - 🟠 ML-driven anomaly detection across metrics, logs, and APM data.
 - [Moogsoft](https://www.moogsoft.com/) - 🟠 AIOps platform for alert correlation, noise reduction, and incident clustering.
-- [New Relic AI](https://newrelic.com/platform/applied-intelligence) - 🟠 Applied intelligence with anomaly detection, incident correlation, and natural-language querying.
-- [Honeycomb BubbleUp](https://www.honeycomb.io/platform/bubbleup) - 🟠 Automated outlier correlation across high-cardinality dimensions.
 - [Coroot](https://github.com/coroot/coroot) - 🟢🔵 Open-source eBPF-powered observability with automated service map discovery.
 
 ### SLO Management
@@ -229,11 +219,11 @@ Indicators: ⭐ Widely adopted · 🟢 Active · 🔵 Cloud-native · 🟠 Comme
 ### gRPC & Protocol-Specific Testing
 
 - [ghz](https://github.com/bojand/ghz) - 🟢🚀 gRPC benchmarking and load testing tool supporting unary and streaming RPCs.
-- [k6 + xk6-grpc](https://github.com/grafana/xk6-grpc) - 🟢🔵 k6 extension for scriptable gRPC load testing scenarios.
+- [k6 gRPC](https://grafana.com/docs/k6/latest/javascript-api/k6-net-grpc/) - 🟢🔵 Native k6 gRPC support for scriptable unary and streaming load testing scenarios.
 - [k6 + xk6-kafka](https://github.com/mostafa/xk6-kafka) - 🟢🔵 k6 extension for Apache Kafka load testing at scale.
 - [kafka-producer-perf-test / kafka-consumer-perf-test](https://kafka.apache.org/documentation/#basic_ops_producer_consumer_perf) - 🟢 Built-in Kafka benchmarking tools for producer and consumer throughput.
 - [RabbitMQ PerfTest](https://github.com/rabbitmq/rabbitmq-perf-test) - 🟢 Official RabbitMQ benchmarking tool for throughput and latency measurement.
-- [k6 + xk6-websockets](https://grafana.com/docs/k6/latest/javascript-api/k6-websockets/) - 🟢🔵 Built-in k6 WebSocket support for testing real-time and bidirectional protocols.
+- [k6 WebSockets](https://grafana.com/docs/k6/latest/javascript-api/k6-websockets/) - 🟢🔵 Built-in k6 WebSocket support for testing real-time and bidirectional protocols.
 
 ### Browser & Frontend Performance
 
@@ -302,28 +292,16 @@ Indicators: ⭐ Widely adopted · 🟢 Active · 🔵 Cloud-native · 🟠 Comme
 
 - [k6 HTML Report](https://github.com/benc-uk/k6-reporter) - 🟢 Standalone HTML report generator for k6 test results.
 - [HdrHistogram](https://github.com/HdrHistogram/HdrHistogram) - 🟢🚀 High Dynamic Range Histogram for accurate latency measurement capturing the full distribution.
-- [Gatling Reports](https://gatling.io/) - 🟢 Built-in HTML reports with percentile distributions and response time series.
 - [Apache JMeter Dashboard](https://jmeter.apache.org/usermanual/generating-dashboard.html) - 🟢 Built-in HTML dashboard generating APDEX scores and response time distributions.
 - [Taurus Reporting](https://gettaurus.org/docs/Reporting/) - 🟢 Unified reporting across multiple load testing engines with BlazeMeter integration.
 
-### Cloud Provider Services
+### Managed Load Testing Platforms
 
 - [Azure App Testing](https://azure.microsoft.com/en-us/products/app-testing/) - 🟠🔵 Microsoft's managed load testing service supporting JMeter and Locust with multi-region simulation.
 - [AWS Distributed Load Testing](https://github.com/aws-solutions/distributed-load-testing-on-aws) - 🟠🔵 Distributed load testing architecture on AWS via CloudFormation supporting JMeter, k6, and Locust.
-
-### Developer-Centric Platforms
-
 - [Grafana k6 Cloud](https://grafana.com/products/cloud/performance-load-testing-k6/) - 🟠 Managed k6 execution with multi-region load zones and real-time Grafana visualization.
 - [Octoperf](https://octoperf.com/) - 🟠 SaaS performance testing platform built on JMeter with distributed load generation.
-
-### Enterprise Platforms
-
 - [BlazeMeter](https://www.blazemeter.com/) - 🟠 Cloud performance testing platform supporting JMeter, Gatling, Locust, Selenium, and Playwright.
-
-### Tools & Integrations
-
-- [Datadog Synthetic Monitoring + AI](https://docs.datadoghq.com/synthetics/) - 🟠 Synthetic API and browser tests with ML-powered anomaly detection and APM correlation.
-- [Dynatrace Load Testing Integration](https://docs.dynatrace.com/docs/deliver/test-pipeline-observability) - 🟠 Automated CI/CD quality gates using AI-based performance evaluation against baselines.
 
 ## Related
 
