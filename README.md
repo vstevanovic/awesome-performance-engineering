@@ -59,6 +59,9 @@ Indicators: ⭐ Widely adopted · 🟢 Active · 🔵 Cloud-native · 🟠 Comme
 - [Telegraf](https://github.com/influxdata/telegraf) - 🟢 Plugin-driven agent for collecting and reporting metrics with 300+ input plugins.
 - [StatsD](https://github.com/statsd/statsd) - Lightweight, UDP-based metrics aggregation daemon with broad application support.
 - [Netdata](https://github.com/netdata/netdata) - ⭐🟢🚀 Real-time per-second monitoring with built-in anomaly detection and zero-configuration agent.
+- [TimescaleDB](https://github.com/timescale/timescaledb) - ⭐🟢🟠 PostgreSQL extension for time-series workloads with automatic partitioning, columnar compression, and continuous aggregates.
+- [QuestDB](https://github.com/questdb/questdb) - 🟢🚀 High-performance time-series database with SQL queries and InfluxDB line protocol ingestion.
+- [ClickHouse](https://github.com/ClickHouse/ClickHouse) - ⭐🟢🚀 Columnar OLAP database powering many observability backends with fast analytical queries over telemetry at scale.
 
 ### Distributed Tracing
 
@@ -79,6 +82,7 @@ Indicators: ⭐ Widely adopted · 🟢 Active · 🔵 Cloud-native · 🟠 Comme
 - [OpenSearch](https://github.com/opensearch-project/OpenSearch) - 🟢🔵 Community-driven, Apache-2.0-licensed fork of Elasticsearch, backed by AWS.
 - [Graylog](https://github.com/Graylog2/graylog2-server) - 🟢🟠 Centralized log management with built-in alerting and dashboards.
 - [rsyslog](https://github.com/rsyslog/rsyslog) - 🟢🚀 High-performance system logging daemon handling millions of messages per second.
+- [VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) - 🟢🚀 Resource-efficient log database from VictoriaMetrics with full-text search and LogsQL query language.
 
 ### Observability Pipelines and Telemetry Processing
 
@@ -105,6 +109,7 @@ Indicators: ⭐ Widely adopted · 🟢 Active · 🔵 Cloud-native · 🟠 Comme
 - [bcc (BPF Compiler Collection)](https://github.com/iovisor/bcc) - 🟢🚀 Toolkit for creating eBPF-based tracing programs with dozens of ready-to-use tools.
 - [Grafana Beyla](https://github.com/grafana/beyla) - 🟢🔵🚀 eBPF-based zero-code auto-instrumentation generating RED metrics and distributed traces.
 - [Perfetto](https://github.com/google/perfetto) - 🟢 System-wide tracing and profiling toolkit from Google for Android, Chrome, and general system analysis.
+- [Pixie](https://github.com/pixie-io/pixie) - 🟢🔵🚀 eBPF-based Kubernetes observability capturing requests, metrics, and traces without manual instrumentation (CNCF sandbox).
 
 ### Alerting & Incident Response
 
