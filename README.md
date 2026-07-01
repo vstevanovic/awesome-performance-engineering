@@ -166,6 +166,7 @@ Indicators: ⭐ Widely adopted · 🟢 Active · 🔵 Cloud-native · 🟠 Comme
 
 - [Moogsoft](https://www.moogsoft.com/) - 🟠 AIOps platform for alert correlation, noise reduction, and incident clustering.
 - [Coroot](https://github.com/coroot/coroot) - 🟢🔵 Open-source eBPF-powered observability with automated service map discovery.
+- [Multiplayer](https://github.com/multiplayer-app/multiplayer) - 🟢🟠 Open-source debugging agent that connects your favorite coding agents to runtime data, capturing full-stack, unsampled session data to identify and fix bugs automatically.
 
 ### SLO Management
 
