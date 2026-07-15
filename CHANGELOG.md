@@ -4,6 +4,21 @@ Notable changes to this list are documented in this file, grouped by date — th
 
 ## 2026-07-15
 
+### Added
+
+- GreptimeDB (Metrics Collection & Time-Series Storage).
+- py-spy, pprof, and JDK Mission Control (Profiling & Continuous Performance Analysis) — sampling and production profilers for Python, Go, and the JVM.
+- OpenObserve (Observability Platforms).
+- pgBadger (Database Observability).
+- K8sGPT (AI-Augmented Observability) — CNCF sandbox.
+- Gatus (Synthetic Monitoring).
+- Fortio and k6 Studio (Load & Stress Testing).
+- JMH and hyperfine (HTTP Benchmarking & Micro-Benchmarking).
+- Bruno and Schemathesis (API Testing & Contract Testing).
+- Unlighthouse (Browser & Frontend Performance).
+- Toxiproxy (Network Simulation & Traffic Shaping).
+- Bencher (CI/CD Integration & Performance Gates).
+
 ### Changed
 
 - Replaced Grafana Beyla with OpenTelemetry eBPF Instrumentation (OBI) — Grafana Labs donated Beyla to OpenTelemetry in May 2025; `grafana/beyla` is now a downstream distribution of the upstream project.
