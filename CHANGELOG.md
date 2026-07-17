@@ -2,6 +2,22 @@
 
 Notable changes to this list are documented in this file, grouped by date — the list is continuously curated rather than versioned. Format inspired by [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 2026-07-17
+
+### Added
+
+- HyperDX and Axiom (Observability Platforms).
+- Odigos (Profiling & Continuous Performance Analysis).
+- incident.io (Alerting & Incident Response).
+- pganalyze (Database Observability).
+- HolmesGPT (AI-Augmented Observability) — CNCF sandbox.
+- Goose (Load & Stress Testing).
+- autocannon and Criterion.rs (HTTP Benchmarking & Micro-Benchmarking) — Criterion.rs now lives under the `criterion-rs` organization; the original `bheisler` repository is unmaintained.
+- NoSQLBench (Database Performance Testing & Benchmarking).
+- DebugBear (Browser & Frontend Performance).
+- Azure Chaos Studio (Chaos Engineering & Fault Injection).
+- CodSpeed (CI/CD Integration & Performance Gates).
+
 ## 2026-07-15
 
 ### Added
