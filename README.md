@@ -214,6 +214,7 @@ Indicators: ⭐ Widely adopted · 🟢 Active · 🔵 Cloud-native · 🟠 Comme
 - [Fortio](https://github.com/fortio/fortio) - 🟢🚀 HTTP and gRPC load testing tool from the Istio ecosystem running at fixed query rates with latency histograms.
 - [k6 Studio](https://github.com/grafana/k6-studio) - 🟢 Desktop application recording browser traffic and generating k6 test scripts.
 - [Goose](https://github.com/tag1consulting/goose) - 🟢🚀 Rust load testing framework inspired by Locust, defining user behavior in code with high per-core throughput.
+- [QAPractices Load Testing with k6](https://qapractices.com/documentation/load-testing-with-k6/) - Practical guide to load and stress testing APIs and web services with k6 and Grafana.
 
 ### HTTP Benchmarking & Micro-Benchmarking
 
